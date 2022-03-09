@@ -1,0 +1,100 @@
+/*blocks*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 72px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 595px;
+  height: 838px;
+  margin: 0 auto;
+  padding: 0;
+  border-top: 4px solid black;
+}
+.avatar {
+  margin: 36px 116px 32px 0px;
+  height: 72px;
+  max-width: 72px;
+  left: 407px;
+  top: 36px;
+}
+.title {
+  margin: 48px 162px 32px 48px;
+  height: 60px;
+  max-width: 197px;
+  left: 48px;
+  top: 48px;
+}
+.xp {
+  margin: 0px 24px 72px 48px;
+  height: 630px;
+  width: 335px;
+  left: 48px;
+  top: 140px;
+}
+.infos {
+  margin: 0px 48px 144px 0px;
+  height: 558px;
+  width: 140px;
+  left: 407px;
+  top: 140px;
+}
+/*fonts*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.profession {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.chapter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #73808d;
+}
+.position {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 18px;
+}
+.institution,
+.responsibilities {
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.period {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #73808d;
+}
+.chapter_add {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #73808d;
+}
+.add_inf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  color: #73808d;
+}
